@@ -3,11 +3,7 @@
   hosts: all
   become: True
   tasks:
-    #  - name: Install our respository - EPEL
-    #    yum:
-    #      name: epel-release
-    #      state: installed
-
+    
      - name: Install Docker
        yum:
         name: docker
